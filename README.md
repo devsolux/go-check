@@ -14,5 +14,7 @@ go version
 go mod init go-check
 go mod tidy
 
+go run main.go
+
 go-check
 ```
