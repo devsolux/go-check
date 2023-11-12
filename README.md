@@ -10,5 +10,9 @@ $ go install github.com/devsolux/go-check@latest
 
 ### Use Case
 ```bash
+go version
+go mod init go-check
+go mod tidy
+
 go-check
 ```
