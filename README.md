@@ -1,4 +1,4 @@
-# go-check
+# Go Check
 
 Check for outdated go module.
 
