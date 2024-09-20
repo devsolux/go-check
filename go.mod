@@ -1,15 +1,17 @@
 module github.com/devsolux/go-check
 
-go 1.18
+go 1.22.0
+
+toolchain go1.23.1
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.7
-	github.com/avast/retry-go/v4 v4.5.0
-	github.com/briandowns/spinner v1.23.0
-	github.com/spf13/cobra v1.8.0
-	github.com/stretchr/testify v1.8.4
-	golang.org/x/mod v0.14.0
-	golang.org/x/tools v0.15.0
+	github.com/avast/retry-go/v4 v4.6.0
+	github.com/briandowns/spinner v1.23.1
+	github.com/spf13/cobra v1.8.1
+	github.com/stretchr/testify v1.9.0
+	golang.org/x/mod v0.21.0
+	golang.org/x/tools v0.25.0
 )
 
 require (
@@ -22,7 +24,8 @@ require (
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/sys v0.14.0 // indirect
+	golang.org/x/sync v0.8.0 // indirect
+	golang.org/x/sys v0.25.0 // indirect
 	golang.org/x/term v0.1.0 // indirect
 	golang.org/x/text v0.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
